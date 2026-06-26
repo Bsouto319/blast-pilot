@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { supabase } from '../lib/supabase'
 import type { Campanha, Contato } from '../types'
-import { ArrowLeft, CheckCircle, XCircle, Clock, Send, RefreshCw } from 'lucide-react'
+import { ArrowLeft, CheckCircle, XCircle, Clock, RefreshCw } from 'lucide-react'
 import { format } from 'date-fns'
 import { ptBR } from 'date-fns/locale'
 
